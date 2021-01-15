@@ -17,21 +17,10 @@ VSCode setting(example)
     "workbench.iconTheme": "vscode-icons",
     "telemetry.enableTelemetry": false,
     "window.zoomLevel": 0,
-    "eslint.run": "onSave",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.pep8Enabled": false,
-    "python.linting.pylintArgs": [
-        "--load-plugins",
-        "pylint_django",
-        "--max-line-length",
-        "120"
-    ],
+    "python.linting.pycodestyleEnabled": false,
     "files.autoSave": "onFocusChange",
-    "python.formatting.autopep8Args": [
-        "--max-line-length",
-        "100"
-    ],
     "editor.formatOnSave": true,
     "[html]": {
         "editor.formatOnSave": false
@@ -39,8 +28,6 @@ VSCode setting(example)
     "python.linting.maxNumberOfProblems": 100,
     "git.enableSmartCommit": true,
     "workbench.statusBar.visible": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true,
     "window.menuBarVisibility": "default",
     "editor.minimap.enabled": true,
     "files.exclude": {
@@ -50,4 +37,6 @@ VSCode setting(example)
     },
     "editor.multiCursorModifier": "ctrlCmd",
     "python.linting.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.formatting.provider": "black",
 }
